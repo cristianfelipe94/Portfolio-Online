@@ -1,0 +1,96 @@
+@media screen and (max-width: 968px) {
+	
+	.imgHello {
+		width: 100%;
+	}
+
+	.img-wrapper {
+		width: 50%;
+		opacity: 1;
+		height: auto;
+	}
+
+	.say-hello-text {
+		display: none;
+	}
+
+	.sign {
+		display: block;
+	}
+
+	.rotation-anim {
+		text-align: center;
+	}
+
+	.landingPageMoves {
+		left: 90%;
+	}
+
+	.landingPageMoves .sign {
+		display: none;
+	}
+
+	.landingPageMoves .img-wrapper {
+		opacity: 0;
+    transition: 4s;
+	}
+
+	.content-page-showing {
+		width: 74vw;
+		left: 15vw;
+	}
+
+	.content-page-hidden {
+		width: 74vw;
+		left: -100vw;
+    transition: 3s ease-in-out;
+	}
+
+	.background-img-showing {
+		width: 75%;
+		left: 15%;
+	}
+
+	.tabs-info-wrapper-showing {
+		width: 15%;
+	}
+
+	.tabs-list a {
+		display: none;
+	}
+
+	.tab-items span {
+		color: white;
+    width: 50%;
+    text-align: center;
+    height: 50%;
+    font-size: 2em;
+    padding: 2%;
+    margin: 0 auto;
+    display: block;
+	}
+
+	.exp-content-size {
+		border: 0;
+    border-bottom: 1px solid #fd2d65;
+    float: left;
+    padding: 0% 4%;
+		width: 95%;
+	}
+
+	.portfolio-wrappers {
+		width: 65%;
+	}
+
+	.diploma-position {
+		height: unset;
+	}
+
+	.landingPageMoves .sizer-style-position {
+		display: none;
+	}
+
+	.sizer-style-position {
+		display: none;
+	}
+}

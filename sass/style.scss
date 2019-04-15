@@ -1,0 +1,24 @@
+// Global styles
+////////////////
+@import 'Variables/variables';
+@import 'Global/global';
+@import 'ScrollBar/scroll';
+
+// Section styles
+/////////////////
+@import 'BackgroundImg/background';
+@import 'LandingPage/landing';
+@import 'Content/content';
+@import 'Education/education';
+@import 'Experience/experience';
+@import 'About/about';
+@import 'Home/home';
+@import 'Portfolio/portfolio';
+@import 'Contact/contact';
+@import 'Tabs/tabs';
+@import 'GithubActivity/github';
+
+// Media Queries Mobile
+///////////////////////
+@import 'MediaQueries/mediaTablet';
+@import 'MediaQueries/mediaMobile';
