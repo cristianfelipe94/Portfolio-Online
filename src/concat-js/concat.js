@@ -234,21 +234,20 @@ btnClose.addEventListener("click", () => {
   setTimeout(backgroundHiddenDelay, 8000);
 });
 // ////////////////////////
-
 // Background image generator.
 // ///////////////////////////
 const imgBackground = [
-  "img/background/ambar.jpg",
-  "img/background/ann.jpg",
-  "img/background/soft.jpg",
-  "img/background/floyd.jpg",
-  "img/background/mermaid.jpg",
-  "img/background/witch.jpg",
-  "img/background/support.jpg",
-  "img/background/skinish.jpg",
-  "img/background/rights.jpg",
-  "img/background/strong.jpg",
-  "img/background/zelda.jpg"
+  "src/img/background/ambar.jpg",
+  "src/img/background/ann.jpg",
+  "src/img/background/soft.jpg",
+  "src/img/background/floyd.jpg",
+  "src/img/background/mermaid.jpg",
+  "src/img/background/witch.jpg",
+  "src/img/background/support.jpg",
+  "src/img/background/skinish.jpg",
+  "src/img/background/rights.jpg",
+  "src/img/background/strong.jpg",
+  "src/img/background/zelda.jpg"
 ];
 
 function loadBackgroundImg() {
@@ -293,46 +292,46 @@ tab(VerticalTabs);
 // ////////////////////////////
 const imgPortArray = [
   (imgPort13 = {
-    src: "img/turing-pwa.jpg",
+    src: "src/img/turing-pwa.jpg",
     alt: "react application for educational purposes.",
     href: "https://turning.netlify.com/#/",
     type: "game",
     description: "Esta es una PWA creada con ReactJs, HTML y CSS."
   }),
   (imgPort1 = {
-    src: "img/canvas_game_port1.jpg",
+    src: "src/img/canvas_game_port1.jpg",
     alt: "canvas mini game picture",
     href: "https://cristianfelipe94.github.io/CanvasGame/",
     type: "game",
     description: "Canvas, Javascript, HTML y SASS."
   }),
   (imgPort2 = {
-    src: "img/derrota_palabra_port1.jpg",
+    src: "src/img/derrota_palabra_port1.jpg",
     alt: "derrota la palabra game picture",
     href: "https://cristianfelipe94.github.io/Derrota-la-Palabra/",
     type: "game",
     description: '"Word Beater" usando HTML, Javascript y CSS.'
   }),
   (imgPort3 = {
-    src: "img/tiny_one_port1.jpg",
+    src: "src/img/tiny_one_port1.jpg",
     alt: "tiny one picture",
     href: "https://cristianfelipe94.github.io/TinyOneWebSite/",
     type: "page"
   }),
   (imgPort4 = {
-    src: "img/folio_port1.jpg",
+    src: "src/img/folio_port1.jpg",
     alt: "folio picture",
     href: "https://cristianfelipe94.github.io/Final-Test./",
     type: "page"
   }),
   (imgPort5 = {
-    src: "img/blaz_port1.jpg",
+    src: "src/img/blaz_port1.jpg",
     alt: "blaz game picture",
     href: "https://cristianfelipe94.github.io/BlazRobarWebsite/",
     type: "page"
   }),
   (imgPort6 = {
-    src: "img/cuda_port1.jpg",
+    src: "src/img/cuda_port1.jpg",
     alt: "cuda game picture",
     href: "https://cristianfelipe94.github.io/ExamenWeb/",
     type: "page"
@@ -422,31 +421,31 @@ imgPortArray.forEach(element => {
 // ///////////////////////////
 const diplomaContent = [
   (diploma1 = {
-    src: "img/diploma.png",
+    src: "src/img/diploma.png",
     alt: "diploma information",
     content: "Título de Diseño y Desarrollo Web CETAV",
     date: "Fecha CETAV"
   }),
   (diploma2 = {
-    src: "img/diploma.png",
+    src: "src/img/diploma.png",
     alt: "diploma information",
     content: "Título de Pronunciación Inglesa INA",
     date: "Fecha INA"
   }),
   (diploma3 = {
-    src: "img/diploma.png",
+    src: "src/img/diploma.png",
     alt: "diploma information",
     content: "Titulo de Aplicaciones Ofimáticas INA",
     date: "Fecha INA"
   }),
   (diploma4 = {
-    src: "img/diploma.png",
+    src: "src/img/diploma.png",
     alt: "diploma information",
     content: "Título de Secundaria Liceo Anastasio Alfaro",
     date: "Fecha Secundaria"
   }),
   (diploma5 = {
-    src: "img/diploma.png",
+    src: "src/img/diploma.png",
     alt: "diploma information",
     content: "Título de Primaria Escuela Roberto Cantillano Vindas",
     date: "Fecha Primaria"

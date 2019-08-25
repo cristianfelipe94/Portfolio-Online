@@ -497,14 +497,13 @@
 .content-page-hidden {
   animation: hiddingContent 3s;
   background-color: black;
-  color: #D6DBE0;
+  color: #d6dbe0;
   height: 100vh;
   left: -50vw;
   margin: 0 auto;
   padding: 5%;
   position: absolute;
   transition: 3s ease-in-out;
-  transition-delay: 1;
   width: 58vw;
   z-index: -50;
 }
@@ -1186,6 +1185,11 @@
   .content-page-showing {
     width: 74vw;
     left: 15vw;
+  }
+
+  .content-page-hidden {
+    left: -62vw;
+    width: 74vw;
   }
 
   .background-img-showing {
